@@ -1,29 +1,16 @@
-# Publishing agentic-estate (NOT YET PUBLISHED)
+# Publishing agentic-estate
 
-Same channel and mechanics as decision-panels: public repo under the `chorusse` GitHub org,
-shipped by subtree push from this monorepo.
+**Live since 2026-08-04:** <https://github.com/chorusse/agentic-estate> — MIT, full instance #1
+(runnable estate + 11-lesson guide) free and complete. Paid line: domain instances +
+design-brief engagements.
 
-## Gate status (rulings 2026-08-04)
-
-- ✅ **Free/paid line ratified:** instance #1 ships whole — runnable estate + full 11-lesson
-  guide. Paid = domain instances + design-brief engagements.
-- ✅ **License:** MIT, Copyright (c) 2026 Chorusse (`LICENSE`, identical to decision-panels).
-- ✅ **Repo name:** `agentic-estate`. **Branding:** README footer as written.
-- ✅ **Internals sweep:** grep for vault/method/personal/employer references — clean; method-phase
-  parentheticals trimmed from guide files.
-- ⬜ **Dan says "ship it."** The artifact list is everything under `agentic-estate/` — one final
-  yes before the push, per house rule.
-
-## Ship commands (on the final yes)
+This directory is the source of truth; the public repo is published from the chorusse monorepo
+by subtree push. To ship an update: commit here, then
 
 ```bash
 cd ~/chorusse
-gh repo create chorusse/agentic-estate \
-  --public \
-  --description "A runnable template of an agentic estate — five planes, one map, and the field guide that teaches ops people to run it." \
-  --homepage "https://chorusse.com"
-
 git subtree push --prefix=agentic-estate https://github.com/chorusse/agentic-estate.git main
 ```
 
-Note: subtree push requires the scaffold to be committed to the monorepo first.
+House rule stands: any change that adds *new* world-readable material gets enumerated and ruled
+on before the push.
