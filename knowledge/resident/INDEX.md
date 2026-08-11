@@ -1,8 +1,8 @@
-# Resident index — the always-loaded tier
+# Resident index: the always-loaded tier
 
 Deliberately tiny. This is the estate's entire resident knowledge:
 
-- **What this estate is:** a minimal, runnable teaching estate — see `README.md` at the root.
+- **What this estate is:** a minimal, runnable teaching estate. See `README.md` at the root.
 - **Where things live:** policy in `CLAUDE.md` · guards in `.claude/` · retrieved material in
   `knowledge/paged/` · never-load in `knowledge/quarantine/` · evals in `evals/EVALS.md` ·
   curriculum in `guide/`.

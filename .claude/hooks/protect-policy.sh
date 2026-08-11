@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
-# ENFORCEMENT PLANE — integrity hold (guide lesson 7).
+# ENFORCEMENT PLANE: integrity hold (guide lesson 7).
 # Blocks the estate from editing its own policy plane and its evals:
 # CLAUDE.md, anything under .claude/, and evals/EVALS.md.
 # Deterministic: fires on every matching tool call, regardless of what
-# the model was told, believes, or was tricked into. That property —
-# not the rule itself — is the lesson.
+# the model was told, believes, or was tricked into. That property,
+# not the rule itself, is the lesson.
 # Exit 2 = block the tool call; the stderr message goes to the model.
 
 exec python3 -c "

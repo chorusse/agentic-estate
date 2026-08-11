@@ -1,6 +1,6 @@
 # Publishing agentic-estate
 
-**Live since 2026-08-04:** <https://github.com/chorusse/agentic-estate> — MIT, full instance #1
+**Live since 2026-08-04:** <https://github.com/chorusse/agentic-estate>. MIT, full instance #1
 (runnable estate + 11-lesson guide) free and complete. Paid line: domain instances +
 design-brief engagements.
 
