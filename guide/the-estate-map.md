@@ -10,25 +10,25 @@ If you keep a single drawing from this guide, keep this one. Every lesson lives 
 
 ```mermaid
 flowchart TB
-    subgraph pol["POLICY PLANE — declarative, versioned, ADVISORY (lessons 2, 4)"]
+    subgraph pol["POLICY PLANE: declarative, versioned, ADVISORY (lessons 2, 4)"]
         p1["Instruction files · charters ·<br/>descriptions (= route advertisements)"]
     end
-    subgraph enf["ENFORCEMENT PLANE — deterministic, fires every time (lessons 2, 6, 7)"]
+    subgraph enf["ENFORCEMENT PLANE: deterministic, fires every time (lessons 2, 6, 7)"]
         e1["Hooks"]
         e2["Permission rules · sandboxes"]
         e3["Egress gates · integrity holds"]
     end
-    subgraph exec["EXECUTION PLANE — probabilistic compute (lessons 1, 8–10)"]
+    subgraph exec["EXECUTION PLANE: probabilistic compute (lessons 1, 8–10)"]
         x1["Router / classifier<br/>(the front door)"]
         x2["Main loop · frontier tier"]
         x3["Scoped subagents ·<br/>cheaper tiers"]
     end
-    subgraph know["KNOWLEDGE PLANE — storage tiers (lessons 3, 6)"]
+    subgraph know["KNOWLEDGE PLANE: storage tiers (lessons 3, 6)"]
         k1["Always resident: index +<br/>standing policy (tiny)"]
         k2["Paged on demand: retrieval<br/>(output = internet-zone)"]
         k3["Never loaded: quarantined"]
     end
-    subgraph obs["OBSERVABILITY PLANE — how you know (lesson 5)"]
+    subgraph obs["OBSERVABILITY PLANE: how you know (lesson 5)"]
         o1["Evals, declared first"]
         o2["Logs · review trails"]
     end
@@ -64,22 +64,22 @@ flowchart TB
         p1["[your instruction files, by name]"]
     end
     subgraph enf["ENFORCEMENT PLANE"]
-        e1["[your hooks — or an honest EMPTY]"]
+        e1["[your hooks, or an honest EMPTY]"]
         e2["[your permission rules]"]
-        e3["[your gates on anything leaving — or EMPTY]"]
+        e3["[your gates on anything leaving, or EMPTY]"]
     end
     subgraph exec["EXECUTION PLANE"]
-        x1["[your front door — most estates: NONE YET]"]
+        x1["[your front door, most estates NONE YET]"]
         x2["[your main loop + model tier]"]
         x3["[your subagents, with their grants]"]
     end
     subgraph know["KNOWLEDGE PLANE"]
-        k1["[what loads every session — list it ALL]"]
+        k1["[what loads every session, list it ALL]"]
         k2["[what's retrieved on demand, from where]"]
         k3["[what must never load]"]
     end
     subgraph obs["OBSERVABILITY PLANE"]
-        o1["[your evals — or an honest EMPTY]"]
+        o1["[your evals, or an honest EMPTY]"]
         o2["[your logs]"]
     end
     pol --> exec

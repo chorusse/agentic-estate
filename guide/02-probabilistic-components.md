@@ -49,10 +49,10 @@ Sort every control you have into two planes:
 
 ```mermaid
 flowchart TB
-    subgraph pol["POLICY PLANE — advisory by physics"]
+    subgraph pol["POLICY PLANE: advisory by physics"]
         p1["Instruction files · charters · guidelines"]
     end
-    subgraph enf["ENFORCEMENT PLANE — fires every time"]
+    subgraph enf["ENFORCEMENT PLANE: fires every time"]
         e1["Hooks on events"]
         e2["Permission rules · sandboxes"]
         e3["Gates on anything leaving"]

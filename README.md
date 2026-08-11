@@ -2,11 +2,11 @@
 
 **A runnable template for people who run estates, not apps.**
 
-Most agentic "starter kits" are piles of components — 135 agents, 40 hooks, copy what you like.
+Most agentic "starter kits" are piles of components: 135 agents, 40 hooks, copy what you like.
 This repo is the opposite: a *minimal working estate* in which every file is a live instance of
 one node on the map below, plus the field guide that teaches you to reason about it. You don't
 copy this repo because it's comprehensive. You clone it because after an hour inside it you'll
-understand any agentic deployment you're handed — including the one your employer is about to
+understand any agentic deployment you're handed, including the one your employer is about to
 hand you.
 
 Built for infrastructure, network, and security operators: people whose career has been making
@@ -14,29 +14,29 @@ fleets of components they didn't write reliable. That skill is the job here too.
 [lesson 1](guide/01-the-estate-reframe.md) if you want the argument; start below if you want
 your hands on the metal.
 
-## The map — every agentic estate is five planes
+## The map: every agentic estate is five planes
 
 ```mermaid
 flowchart TB
-    subgraph pol["POLICY PLANE — declarative, versioned, ADVISORY (lessons 2, 4)"]
+    subgraph pol["POLICY PLANE: declarative, versioned, ADVISORY (lessons 2, 4)"]
         p1["Instruction files · charters ·<br/>descriptions (= route advertisements)"]
     end
-    subgraph enf["ENFORCEMENT PLANE — deterministic, fires every time (lessons 2, 6, 7)"]
+    subgraph enf["ENFORCEMENT PLANE: deterministic, fires every time (lessons 2, 6, 7)"]
         e1["Hooks"]
         e2["Permission rules · sandboxes"]
         e3["Egress gates · integrity holds"]
     end
-    subgraph exec["EXECUTION PLANE — probabilistic compute (lessons 1, 8–10)"]
+    subgraph exec["EXECUTION PLANE: probabilistic compute (lessons 1, 8–10)"]
         x1["Router / classifier<br/>(the front door)"]
         x2["Main loop · frontier tier"]
         x3["Scoped subagents ·<br/>cheaper tiers"]
     end
-    subgraph know["KNOWLEDGE PLANE — storage tiers (lessons 3, 6)"]
+    subgraph know["KNOWLEDGE PLANE: storage tiers (lessons 3, 6)"]
         k1["Always resident: index +<br/>standing policy (tiny)"]
         k2["Paged on demand: retrieval<br/>(output = internet-zone)"]
         k3["Never loaded: quarantined"]
     end
-    subgraph obs["OBSERVABILITY PLANE — how you know (lesson 5)"]
+    subgraph obs["OBSERVABILITY PLANE: how you know (lesson 5)"]
         o1["Evals, declared first"]
         o2["Logs · review trails"]
     end
@@ -56,32 +56,32 @@ Three reading rules make this the one truth:
    paged; everything is measured. The dashed arrow: the enforcement plane guards the very files
    the other planes are made of.
 3. **The front door is drawn even when it doesn't exist.** This estate, like most, has no
-   classifier — every request lands straight on the main loop. The empty seat is a finding.
+   classifier, and every request lands straight on the main loop. The empty seat is a finding.
 
 ## Every file, placed on the map
 
 | File | Plane | What it demonstrates |
 |---|---|---|
-| `CLAUDE.md` | Policy | A minimal instruction file — advisory by nature, and it says so |
+| `CLAUDE.md` | Policy | A minimal instruction file, advisory by nature, and it says so |
 | `.claude/agents/scout.md` | Policy + Execution | A scoped subagent; its `description` is a route advertisement (lesson 9), its `tools` line is least-grant |
 | `.claude/settings.json` | Enforcement | Hook wiring + a `deny` rule that makes the quarantine real |
 | `.claude/hooks/protect-policy.sh` | Enforcement | An integrity hold: the estate's policy files cannot be edited by the estate (lesson 7) |
 | `knowledge/resident/INDEX.md` | Knowledge (resident) | The tiny always-loaded tier |
 | `knowledge/paged/` | Knowledge (paged) | Retrieved-on-demand content, zone-tagged as data-not-instructions (lesson 6) |
-| `knowledge/quarantine/` | Knowledge (never) | The never-load tier — enforced, not just declared |
+| `knowledge/quarantine/` | Knowledge (never) | The never-load tier, enforced rather than just declared |
 | `evals/EVALS.md` | Observability | Three evals, declared before you trust anything (lesson 5) |
-| `ESTATE-MAP.md` | — | Your worksheet: the L2 exercise that audits *your* estate |
-| `guide/` | — | The field guide: 11 lessons, the estate map, a drill sheet |
+| `ESTATE-MAP.md` | none | Your worksheet: the L2 exercise that audits *your* estate |
+| `guide/` | none | The field guide: 11 lessons, the estate map, a drill sheet |
 
 ## Run it
 
 1. Clone this repo and launch [Claude Code](https://claude.com/claude-code) inside it.
-2. Run the three evals in [`evals/EVALS.md`](evals/EVALS.md) — one proves the enforcement plane
+2. Run the three evals in [`evals/EVALS.md`](evals/EVALS.md): one proves the enforcement plane
    fires every time, one probes the policy plane's *statistical* compliance, one watches routing.
    The difference you observe between eval 1 and eval 2 is the entire discipline.
 3. Then the real exercise: fork this repo and fill in [`ESTATE-MAP.md`](ESTATE-MAP.md) for the
    agentic deployment you actually run (or are about to inherit). Every bracket gets filled or
-   marked EMPTY, in writing. The EMPTYs are your gap analysis — typical first harvest is three to
+   marked EMPTY, in writing. The EMPTYs are your gap analysis, and a typical first harvest is three to
    five findings, and each maps to a lesson and to a section of the
    [design brief](guide/11-the-design-brief.md).
 
@@ -98,5 +98,5 @@ Three reading rules make this the one truth:
 
 ---
 
-*A [Chorusse](https://chorusse.com) field guide. The generic instance is free and complete —
-domain-specific instances and estate design engagements are how the lights stay on.*
+*A [Chorusse](https://chorusse.com) field guide. The generic instance is free and complete.
+Domain-specific instances and estate design engagements are how the lights stay on.*
