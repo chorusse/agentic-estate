@@ -1,7 +1,7 @@
 # The estate map: the module's tiered artifacts
 
 *Agentics field guide, module-framing artifacts. Distinct from the per-lesson
-diagrams: these frame the whole module. L1 is the one truth; L2 is drawn from YOUR estate, never
+diagrams: these frame the whole module. L1 is the one truth; L2 is drawn from *your* estate, never
 copied; L3 is the bridge you say aloud.*
 
 ## L1. The one truth: every agentic estate is five planes
@@ -10,7 +10,7 @@ If you keep a single drawing from this guide, keep this one. Every lesson lives 
 
 ```mermaid
 flowchart TB
-    subgraph pol["POLICY PLANE: declarative, versioned, ADVISORY (lessons 2, 4)"]
+    subgraph pol["POLICY PLANE: declarative, versioned, advisory (lessons 2, 4)"]
         p1["Instruction files · charters ·<br/>descriptions (= route advertisements)"]
     end
     subgraph enf["ENFORCEMENT PLANE: deterministic, fires every time (lessons 2, 6, 7)"]
@@ -69,12 +69,12 @@ flowchart TB
         e3["[your gates on anything leaving, or EMPTY]"]
     end
     subgraph exec["EXECUTION PLANE"]
-        x1["[your front door, most estates NONE YET]"]
+        x1["[your front door, most estates none yet]"]
         x2["[your main loop + model tier]"]
         x3["[your subagents, with their grants]"]
     end
     subgraph know["KNOWLEDGE PLANE"]
-        k1["[what loads every session, list it ALL]"]
+        k1["[what loads every session, list it all]"]
         k2["[what's retrieved on demand, from where]"]
         k3["[what must never load]"]
     end
@@ -90,7 +90,7 @@ flowchart TB
 
 **The rules of the exercise** (this is where the value is):
 
-- **Every bracket gets filled or marked EMPTY, in writing.** An EMPTY on the enforcement or
+- **Every bracket gets filled or marked `EMPTY`, in writing.** An `EMPTY` on the enforcement or
   observability plane is not a formatting problem; it's a finding. The drawing's job is to make
   absences as visible as presences.
 - **Draw what runs, not what you intend.** If your "review gate" is a sentence in an instruction

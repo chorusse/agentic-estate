@@ -39,8 +39,8 @@ monitoring beats no monitoring.
 ```mermaid
 flowchart LR
     declare["DECLARE<br/>cases + expectations<br/>(before building)"] --> build["BUILD / CHANGE<br/>charter, model, route"]
-    build --> run["RUN the eval"]
-    run --> score["SCORE & track"]
+    build --> run["RUN<br/>the eval"]
+    run --> score["SCORE<br/>& track"]
     score -- "regression caught" --> build
     score -- "passes" --> ship["Trust: earned,<br/>not assumed"]
 ```

@@ -18,7 +18,7 @@ your hands on the metal.
 
 ```mermaid
 flowchart TB
-    subgraph pol["POLICY PLANE: declarative, versioned, ADVISORY (lessons 2, 4)"]
+    subgraph pol["POLICY PLANE: declarative, versioned, advisory (lessons 2, 4)"]
         p1["Instruction files · charters ·<br/>descriptions (= route advertisements)"]
     end
     subgraph enf["ENFORCEMENT PLANE: deterministic, fires every time (lessons 2, 6, 7)"]
@@ -81,8 +81,8 @@ Three reading rules make this the one truth:
    The difference you observe between eval 1 and eval 2 is the entire discipline.
 3. Then the real exercise: fork this repo and fill in [`ESTATE-MAP.md`](ESTATE-MAP.md) for the
    agentic deployment you actually run (or are about to inherit). Every bracket gets filled or
-   marked EMPTY, in writing. The EMPTYs are your gap analysis, and a typical first harvest is three to
-   five findings, and each maps to a lesson and to a section of the
+   marked `EMPTY`, in writing. The blanks are your gap analysis, and a typical first harvest
+   is three to five findings, and each maps to a lesson and to a section of the
    [design brief](guide/11-the-design-brief.md).
 
 ## The field guide

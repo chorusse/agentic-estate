@@ -35,7 +35,7 @@ around it. Same move here.
 
 So here is the design response, and it's the single most load-bearing split in the whole estate:
 
-**Anything that must ALWAYS happen cannot live in prose.**
+**Anything that must always happen cannot live in prose.**
 
 Sort every control you have into two planes:
 

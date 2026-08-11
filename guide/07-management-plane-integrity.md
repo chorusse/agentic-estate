@@ -72,7 +72,7 @@ flowchart LR
         c["Instruction files ·<br/>permission rules"]
     end
     writers["Write attempts:<br/>you · agents · anything<br/>an agent was talked into"]
-    hold["INTEGRITY HOLD<br/>deterministic · unconditional<br/>human reviews the diff"]
+    hold["Integrity hold<br/>deterministic · unconditional<br/>human reviews the diff"]
     estate["Every future session<br/>obeys the plane"]
     writers --> hold --> plane --> estate
 ```
@@ -99,7 +99,7 @@ did change control.
 
 ## The row, handed back
 
-**Teach:** hooks, skills, and instruction files ARE the estate's management plane; tampering with
+**Teach:** hooks, skills, and instruction files *are* the estate's management plane; tampering with
 them is estate compromise. **Bite:** that plane is plain markdown in a repo agents can write to,
 so integrity holds on those paths are the whole game, not paranoia.
 

@@ -64,11 +64,11 @@ No network you've ever run would tolerate the concept.
 flowchart LR
     req["Request"] --> cls{"Classifier"}
     cls -->|"confident match"| h["Right handler,<br/>usually"]
-    cls -->|"wrong match"| wrong["WRONG handler<br/>handles it fluently:<br/>no error, no signal"]
-    cls -->|"NO MATCH"| def["DEFAULT ROUTE<br/>escalate, never force-fit:<br/>capable tier + human eye"]
-    eval["THE EVAL: labeled traffic,<br/>measured accuracy<br/>(the only unreachable you get)"]
+    cls -->|"wrong match"| wrong["Wrong handler<br/>handles it fluently:<br/>no error, no signal"]
+    cls -->|"no match"| def["Default route<br/>escalate, never force-fit:<br/>capable tier + human eye"]
+    eval["The eval: labeled traffic,<br/>measured accuracy<br/>(the only unreachable you get)"]
     eval -.-> cls
-    wrong -.->|"visible ONLY here"| eval
+    wrong -.->|"visible only here"| eval
 ```
 
 ## What you'd say in the room

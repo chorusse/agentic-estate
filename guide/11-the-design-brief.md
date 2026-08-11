@@ -52,7 +52,7 @@ costs an eraser.
 
 ```mermaid
 flowchart TB
-    subgraph brief["THE DESIGN BRIEF: seven sections, all old friends"]
+    subgraph brief["The design brief: seven sections, all old friends"]
         b1["1 · Task classes<br/>= traffic study"]
         b2["2 · Loading + trust map<br/>= zone diagram"]
         b3["3 · Tool & charter contracts<br/>= interface specs"]

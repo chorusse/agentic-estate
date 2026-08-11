@@ -57,7 +57,7 @@ that is accurate enough.** The ladder, from free to unjustifiable:
 
 ```mermaid
 flowchart LR
-    req["Request arrives<br/>NO destination header"] --> cls{"CLASSIFIER<br/>rules where they suffice ·<br/>cheap model where they don't"}
+    req["Request arrives<br/>no destination header"] --> cls{"CLASSIFIER<br/>rules where they suffice ·<br/>cheap model where they don't"}
     cls -->|"class: lookup"| h1["Small tier · no heavy loading"]
     cls -->|"class: draft"| h2["Mid tier · skill + template"]
     cls -->|"class: decision"| h3["Frontier · full context"]

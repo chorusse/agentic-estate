@@ -1,4 +1,4 @@
-# KNOWLEDGE PLANE: three tiers, by design
+# Knowledge plane: three tiers, by design
 
 Storage tiering, applied to context (guide lessons 3 and 6). Every piece of knowledge in an
 estate is in exactly one tier, and the tier is a design decision, not an accident:

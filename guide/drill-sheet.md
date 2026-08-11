@@ -2,7 +2,7 @@
 
 *Agentics field guide, study blocks. Five blocks, ordered by the chain. Every done-test is
 declared before its drills, because if you can't measure it, it isn't a block. All drills run
-on YOUR estate and YOUR traffic (method principle 4: real material over toy examples). A
+on *your* estate and *your* traffic (method principle 4: real material over toy examples). A
 "required phrase" must appear in your answer in substance, not verbatim.*
 
 ## Standing rules
@@ -88,7 +88,7 @@ questions asked of your own estate, then the two fixes in one sitting.
 
 **Done-tests (declared first):**
 1. The design brief is assembled from blocks 1–4's artifacts: seven sections, each ≤1 page, each
-   non-empty or explicitly marked EMPTY with a ticket, and it's dated.
+   non-empty or explicitly marked `EMPTY` with a ticket, and it's dated.
 2. The governs-test is armed: you can name the next component you're tempted to add, and the
    brief section it must argue in first.
 3. The L3 bridge narrative, aloud, no notes, 60–90 seconds, without stalling. Required clauses:

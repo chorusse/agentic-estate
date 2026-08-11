@@ -40,14 +40,14 @@ flowchart LR
     subgraph outside["INTERNET ZONE: untrusted"]
         doc["Retrieved docs · web content ·<br/>user files · search results"]
     end
-    ctx["THE ONE CHANNEL<br/>(context window)"]
+    ctx["The one channel<br/>(context window)"]
     model["Model"]
     act["Actions: tools,<br/>commits, sends"]
     op --> ctx
     doc -- "labeled as data,<br/>never obeyed" --> ctx
     ctx --> model
     model --> act
-    gate["EGRESS GATE: the one<br/>deterministic boundary left"]
+    gate["Egress gate: the one<br/>deterministic boundary left"]
     act --> gate
 ```
 

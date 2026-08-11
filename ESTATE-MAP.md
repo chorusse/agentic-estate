@@ -35,12 +35,12 @@ flowchart TB
         e3["[your gates on anything leaving, or EMPTY]"]
     end
     subgraph exec["EXECUTION PLANE"]
-        x1["[your front door, most estates NONE YET]"]
+        x1["[your front door, most estates none yet]"]
         x2["[your main loop + model tier]"]
         x3["[your subagents, with their grants]"]
     end
     subgraph know["KNOWLEDGE PLANE"]
-        k1["[what loads every session, list it ALL]"]
+        k1["[what loads every session, list it all]"]
         k2["[what's retrieved on demand, from where]"]
         k3["[what must never load]"]
     end

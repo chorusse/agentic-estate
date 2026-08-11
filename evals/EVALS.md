@@ -1,4 +1,4 @@
-# OBSERVABILITY PLANE: evals, declared first
+# Observability plane: evals, declared first
 
 Three evals, written before you trust anything in this estate (guide lesson 5). Failure in a
 probabilistic estate is fluent and looks like success, so you don't wait for errors; you

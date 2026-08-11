@@ -93,7 +93,7 @@ You're not describing the skill to a human reader; you're announcing a prefix to
 
 ## The row, handed back
 
-**Teach:** skill triggers, agent descriptions, and tool docs ARE your routing table, so writing
+**Teach:** skill triggers, agent descriptions, and tool docs *are* your routing table, so writing
 descriptions is writing route entries. **Bite:** an over-broad advertisement attracts traffic
 that belonged elsewhere and nothing drops, and the gaps only become visible when you design the
 table *as* a table.

@@ -1,4 +1,4 @@
-# Estate policy: the POLICY PLANE
+# Estate policy: the policy plane
 
 This file is the estate's standing policy: declarative, versioned, read at session start, and
 **advisory**. The model weighs it; nothing here is guaranteed. Everything that must happen
