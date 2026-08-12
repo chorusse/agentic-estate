@@ -86,5 +86,4 @@ make "what's on the glass" a design decision instead of an accumulation.
 **Bite:** unused RAM is harmless; irrelevant context actively degrades quality, so the loading map
 is a signal-to-noise plan, not just a cost plan.
 
-The anchor still holds, and it *is* a memory hierarchy. You now know the one clause the anchor gets
-wrong, and it's the clause every loading decision turns on.
+Everything on that loading map is prose somebody wrote. Lesson 4 turns to how it gets read.

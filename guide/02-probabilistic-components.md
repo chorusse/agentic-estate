@@ -102,5 +102,4 @@ anything that must always happen has to live in a deterministic mechanism.
 your old estate config *was* enforcement; here they're different planes, and confusing them is the
 root design error.
 
-One sentence each when you started; now they're the same mechanism seen from two sides: the
-physics, and the design answer to the physics.
+One clause above goes unexplained: compliance decaying as context fills. Lesson 3 takes it apart.

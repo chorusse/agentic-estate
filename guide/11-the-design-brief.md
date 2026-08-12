@@ -113,4 +113,5 @@ trust map, interface specs → tool contracts, policy matrix → autonomy budget
 tiers, monitoring → evals, change control → egress. **Bite:** the estate grows by design only
 while the diagram stays ahead of the cables. A retrofit diagram describes; it no longer governs.
 
-Twenty-eight rows, eleven lessons, one discipline: yours. The material changed. The job didn't.
+The drill sheet is where this stops being reading. Its last phase is deliberately unbuilt: live-fire
+needs a real deadline, a design review, an interview, an incident retro. Pick yours and date it.

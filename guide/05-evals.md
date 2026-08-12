@@ -86,5 +86,5 @@ for one component, and the pattern replicates: every future lesson in this guide
 continuously measured. **Bite:** there is no green/red dashboard for free. Without a declared
 eval, failure is fluent and invisible, so the eval is written *before* the thing it measures.
 
-Monitoring was always your religion. This is the same religion; the only change is that here,
-the silent failure mode isn't the exception; it's the default.
+Every eval described here assumes input that is merely wrong. Lesson 6 introduces input written
+to be obeyed.
