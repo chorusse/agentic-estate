@@ -100,3 +100,5 @@ Three reading rules make this the one truth:
 
 *A [Chorusse](https://chorusse.com) field guide. The generic instance is free and complete.
 Domain-specific instances and estate design engagements are how the lights stay on.*
+
+*Built by Daniel A. Bauer · [linkedin.com/in/danbauer](https://www.linkedin.com/in/danbauer)*
