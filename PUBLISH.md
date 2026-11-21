@@ -1,8 +1,7 @@
 # Publishing agentic-estate
 
 **Live since 2026-08-04:** <https://github.com/chorusse/agentic-estate>. MIT, full instance #1
-(runnable estate + 11-lesson guide) free and complete. Paid line: domain instances +
-design-brief engagements.
+(runnable estate + 11-lesson guide) free and complete. Nothing is for sale.
 
 This directory is the source of truth; the public repo is published from the chorusse monorepo
 by subtree push. To ship an update: commit here, then
