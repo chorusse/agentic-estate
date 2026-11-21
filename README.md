@@ -47,6 +47,9 @@ flowchart TB
     enf -. "integrity holds guard the policy +<br/>enforcement planes themselves" .- pol
 ```
 
+Walk the same map in 3D, with every file in this repo placed on its plane and the empty seats
+drawn grey: [chorusse.com/estate-map](https://chorusse.com/estate-map/).
+
 Three reading rules make this the one truth:
 
 1. **The planes are load-bearing.** Anything that must *always* happen lives in enforcement;
